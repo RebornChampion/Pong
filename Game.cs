@@ -14,8 +14,8 @@ public partial class Game : Node2D
     };
 
     // Constants
-    const int INITIAL_BALL_SPEED = 80; // Pixels per second
-    const int PAD_SPEED = 150; // Pixels per second
+    const int INITIAL_BALL_SPEED = 300; // Pixels per second
+    const int PAD_SPEED = 250; // Pixels per second
 
     // Member Variables
     private Vector2 _screenSize;

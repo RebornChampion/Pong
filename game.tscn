@@ -11,22 +11,28 @@
 script = ExtResource("1_7jktm")
 
 [node name="left" type="Sprite2D" parent="."]
-position = Vector2(67, 183)
+position = Vector2(67, 540)
+scale = Vector2(1.5, 1.5)
 texture = ExtResource("1_fc0e3")
 
 [node name="right" type="Sprite2D" parent="."]
-position = Vector2(577, 187)
+position = Vector2(1853, 540)
+scale = Vector2(1.5, 1.5)
 texture = ExtResource("2_7jktm")
 
 [node name="separator" type="Sprite2D" parent="."]
-position = Vector2(320, 200)
+position = Vector2(960, 540)
+scale = Vector2(4, 2.7)
 texture = ExtResource("3_ryrav")
 
 [node name="ball" type="Sprite2D" parent="."]
-position = Vector2(320, 188)
+position = Vector2(960, 540)
+scale = Vector2(2, 2)
 texture = ExtResource("4_eow3j")
 
 [node name="game_board_godot" type="Sprite2D" parent="."]
+visible = false
 show_behind_parent = true
-position = Vector2(320, 200)
+position = Vector2(960, 540)
+scale = Vector2(3, 2.7)
 texture = ExtResource("6_ryrav")
